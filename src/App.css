@@ -77,5 +77,6 @@
   font-size: 20px;
 }
 
-.pdf-image {
+.ag-header-cell-label {
+  justify-content: center;
 }
