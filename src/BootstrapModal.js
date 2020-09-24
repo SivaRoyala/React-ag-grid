@@ -20,7 +20,7 @@ class BootstrapModal extends React.Component {
   render() {
     return (
       <div>
-        <Modal show={this.props.showHide}>
+        <Modal show={this.props.showHide} animation={false}>
           <Modal.Header closeButton onClick={this.props.onClick}>
             <Modal.Title>DOCUMENT INFORMATION</Modal.Title>
           </Modal.Header>
